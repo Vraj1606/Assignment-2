@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'lessonFont';
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    background-color: #E75480;
+    color: white;
+    padding: 20px;
+}
+
+.heading{
+    background-image: url(../img/img1.jpg);
+}
+
+.img
+{
+    background-image: url('../img/img2.jpg');
+    
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'lessonFont';
+    font-size: 36px;
+    letter-spacing: 3.7px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+@font-face 
+{
+    font-family: lessonFont;
+    src : url("./font/Bohemian\ Typewriter.ttf");
+}
+
+/* Styling for emotions */
+section:nth-child(1),
+section:nth-child(3),
+section:nth-child(4),
+section:nth-child(5) {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: #d7d248; /* Change text color to a shade of red */
+    font-size: 24px;
+}
+
+section:nth-child(2),
+section:nth-child(6),
+section:nth-child(7){
+    font-family: 'Kalam', monospace;
+    font-style: italic; /* Make the text italic */
+    color: #11d8e2; /* Change text color to a shade of blue */
+    font-size: 24px;
+    
+}
+
+section:nth-child(even)
+{
+    text-align: right;
+    margin-right: 80px;
+}
+section:nth-child(odd)
+{
+    text-align: left;
+    margin-left: 80px;
+}
+h3
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Value 1 : Horizontal shadow length
+    Value 2: Vertical
+    Value 3 : Blur 
+    Value 4 : Color
+     */
+     color: #FEFEFE;    
+     text-shadow: 4px 2px 2px #826db8;  
+     letter-spacing: 3.5px;
+     font-family: 'Outfit', sans-serif;
+     font-style: normal;
+     font-weight:bolder;
+}
+
+.em
+{
+    font-weight: 900;
+    text-shadow: 5px 3px 1px #2c4da7;
+}
+.yell
+{
+    font-weight: 900;
+    text-shadow: 4px 2.5px 1px #888a37;
+}
